@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Phishing Awareness Extension",
     "version": "1.0.0",
-    "description": "A password awareness extension hat helps you avoid non complex passwords ",
+    "description": "A password awareness extension that helps you avoid non complex passwords ",
     "author": "kontakt@bildundbyte.de",
     "homepage_url": "https://github.com/dliesfeld/awareness-app",
     "short_name": "Paddy",
