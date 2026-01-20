@@ -1,0 +1,50 @@
+/*Style file for all elements created and modified inside the ./extension/content.ts 
+* (Style file for each TS File with access to the webpage)
+*/
+#phishing-awareness-extension-message {
+    position: fixed;
+    z-index: 9999999999;
+    right: 1vw;
+    padding: 1vh 1vw;
+
+}
+
+#phishing-awareness-extension-message #message-container {
+    position: absolute;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 0.5rem;
+    padding: 1vh 1vw;
+} 
+#phishing-awareness-extension-message #message-container p{
+    word-break: break-all;
+    color: black;
+    overflow-x: auto;
+    max-height: 40vh;
+    margin-top: 20px;
+}
+
+#phishing-awareness-extension-message #message-container::before, #phishing-awareness-extension-tip #message-container::before {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: 100%;
+	left: 1.5em;
+	border: .75rem solid transparent;
+	border-top: none;
+	border-bottom-color: #fff;
+	filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, .1));
+}
+#phishing-awareness-extension-label{
+    position: absolute;
+}
+
+#phishing-awareness-extension-label svg{
+    vertical-align: inherit;
+}
+
+#phishing-awareness-extension-message svg, #phishing-awareness-extension-tip svg{
+    width: 100%;
+    max-height: 49vh;
+}
